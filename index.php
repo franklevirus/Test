@@ -1,14 +1,14 @@
 <p>
-    Bienvenu sur un site 
+    Bienvenu sur un site
 </p>
 
-<form action="cible_envoi.php" method="post" enctype="multipart/form-data" >
+<form action="cible.php" method="post"  >
 <p>
         Formulaire d envoi de fichier: </br>
-        <input type="file" name="monfichier" /> </br>
+        <input type="password" name="pass" /> </br>
         <input type="submit" value="Envoyer le fichier" />
 </p>
 
 
 </form>
-~   
+~
