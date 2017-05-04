@@ -8,7 +8,7 @@ if (isset($_FILES['monfichier']) AND $_FILES['monfichier']['error'] == 0)
                 // Testons si l'extension est autorisée
                 $infosfichier = pathinfo($_FILES['monfichier']['name']);
                 $extension_upload = $infosfichier['extension'];
-                $extensions_autorisees = array('jpg', 'jpeg', 'gif', 'png', 'pdf' );
+                $extensions_autorisees = array('jpg', 'jpeg', 'gif', 'png', 'pdf' , 'sql' );
                 if (in_array($extension_upload, $extensions_autorisees))
                 {
                         // On peut valider le fichier et le stocker définitivement
